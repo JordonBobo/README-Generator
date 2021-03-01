@@ -2,17 +2,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// Title, needs to be the name of the file
-// sections for description, instilation, usage, contribution guidlines, and test instructions
-// license, multiple choice, adds a badge near the top, and adds description of that license in a section call lcense
-// github username, addss a link to the githubpage for that user in the questions section
-// email, adds another line to questions section with the email
-// table of contents, with links to the different sections
-
-
-//template strings rather than json.stringify, needed for this project?
-
-
 inquirer.prompt([
   {
     type: 'input',
@@ -57,7 +46,7 @@ inquirer.prompt([
   },
 ])
 .then((response) => {
-  fs.appendFile(`README.md`, 
+  fs.writeFile(`README.md`, 
       `#${response.title}
       ![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
@@ -96,10 +85,7 @@ inquirer.prompt([
 
 
 
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README 
-// and a notice is added to the section of the README entitled License 
-// that explains which license the application is covered under
+
 
 
 
