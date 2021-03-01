@@ -48,7 +48,7 @@ inquirer.prompt([
 .then((response) => {
   fs.writeFile(`README.md`, 
 `
-#${response.title}
+# ${response.title}
 ![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
 ### Table of Contents:
@@ -59,16 +59,16 @@ inquirer.prompt([
 5. [License](#License)
 8. [Contact info](#Questions?)
 
-### description:
+### description
 ${response.description}
 
-### How to install:
+### How to install
 ${response.install}
 
-### Contribution Guidelines:
+### Contribution Guidelines
 ${response.contribute}
 
-### Test instructions:
+### Test instructions
 ${response.test}
 
 ### License
