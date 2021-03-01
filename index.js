@@ -47,7 +47,8 @@ inquirer.prompt([
 ])
 .then((response) => {
   fs.writeFile(`README.md`, 
-      `#${response.title}
+      `
+      #${response.title}
       ![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
       ### Table of Contents:
