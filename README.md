@@ -1,31 +1,33 @@
 
- #test
+#test
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ### Table of Contents:
-1. [Description](#description:)
-2. [How to install](#How to install:)
-3. [Contribution Guidelines](#Contribution Guidelines:)
-4. [Test instructions](#Test instructions:)
+1. [Description](#description)
+2. [How to install](#How to install)
+3. [Contribution Guidelines](#Contribution Guidelines)
+4. [Test instructions](#Test instructions)
 5. [License](#License)
 8. [Contact info](#Questions?)
 
 ### description:
-test descript
+test
 
 ### How to install:
-test instal
+test
 
 ### Contribution Guidelines:
-test contribute
+test
 
 ### Test instructions:
-test test
+test
 
 ### License
-This App is protected under MIT
+This repo is under the MIT license
 
 ### Questions?
-Feel free to reach out to me with questions.
-[https://github.com/JordonBobo](#https://github.com/JordonBobo)
-Or you can email me at nope@nope.com
+Feel free to reach out to me with questions. 
+
+[https://github.com/test](#https://github.com/test) 
+
+Or you can email me at test
