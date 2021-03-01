@@ -47,38 +47,38 @@ inquirer.prompt([
 ])
 .then((response) => {
   fs.writeFile(`README.md`, 
-      `
-      #${response.title}
-      ![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
+`
+ #${response.title}
+![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
-      ### Table of Contents:
-      1. [Description](#description:)
-      2. [How to install](#How to install:)
-      3. [Contribution Guidelines](#Contribution Guidelines:)
-      4. [Test instructions](#Test instructions:)
-      5. [License](#License)
-      8. [Contact info](#Questions?)
+### Table of Contents:
+1. [Description](#description:)
+2. [How to install](#How to install:)
+3. [Contribution Guidelines](#Contribution Guidelines:)
+4. [Test instructions](#Test instructions:)
+5. [License](#License)
+8. [Contact info](#Questions?)
 
-      ### description:
-      ${response.description}
+### description:
+${response.description}
 
-      ### How to install:
-      ${response.install}
+### How to install:
+${response.install}
 
-      ### Contribution Guidelines:
-      ${response.contribute}
+### Contribution Guidelines:
+${response.contribute}
 
-      ### Test instructions:
-      ${response.test}
+### Test instructions:
+${response.test}
 
-      ### License
-      This App is protected under ${response.license}
+### License
+This App is protected under ${response.license}
 
-      ### Questions?
-      Feel free to reach out to me with questions.
-      [https://github.com/${response.github}](#https://github.com/${response.github})
-      Or you can email me at ${response.email}
-      `, 
+### Questions?
+Feel free to reach out to me with questions.
+[https://github.com/${response.github}](#https://github.com/${response.github})
+Or you can email me at ${response.email}
+`, 
     (err) =>   
     err ? console.error(err) : console.log("ReadMe created successfully")
   );
