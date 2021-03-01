@@ -1,0 +1,22 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "\"An app for automatically generating a ReadMe file for new projects\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordonBobo/ReadMeGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordonBobo/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/JordonBobo/ReadMeGen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
