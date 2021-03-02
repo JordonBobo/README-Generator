@@ -76,7 +76,7 @@ This repo is under the ${response.license} license
 
 ### Questions?
 Feel free to reach out to me with questions. \n
-[https://github.com/${response.github}](#https://github.com/${response.github}) \n
+[GitHub](#https://github.com/${response.github}) \n
 Or you can email me at ${response.email}
 `, 
     (err) =>   

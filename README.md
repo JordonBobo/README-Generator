@@ -28,6 +28,6 @@ This repo is under the MIT license
 ### Questions?
 Feel free to reach out to me with questions. 
 
-[https://github.com/f](#https://github.com/f) 
+[GitHub](#https://github.com/f) 
 
 Or you can email me at g
