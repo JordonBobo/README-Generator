@@ -55,7 +55,7 @@ inquirer.prompt([
     if (err) {
       console.log(err)
     } else {
-      console.log("New directory successfully created.")
+      console.log("New directory to store the new doc was successfully created.")
     }
   }),
   fs.writeFile(`./${response.title}/README.md`, 
@@ -92,7 +92,7 @@ This repo is under the ${response.license} license
 
 ### Questions?
 Feel free to reach out to me with questions. \n
-[https://www.github.com/${response.github}](#https://www.github.com/${response.github}) \n
+[https://www.github.com/${response.github}](https://www.github.com/${response.github}) \n
 Or you can email me at ${response.email}
 `, 
     (err) =>   
