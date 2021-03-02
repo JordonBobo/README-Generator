@@ -53,9 +53,9 @@ inquirer.prompt([
 
 ### Table of Contents:
 1. [Description](#description)
-2. [How to install](#How)
-3. [Contribution Guidelines](#Contribution)
-4. [Test instructions](#Test)
+2. [How to install](#How-to-install)
+3. [Contribution Guidelines](#Contribution-Guidelines)
+4. [Test instructions](#Test-instructions)
 5. [License](#License)
 8. [Contact info](#Questions?)
 
@@ -76,7 +76,7 @@ This repo is under the ${response.license} license
 
 ### Questions?
 Feel free to reach out to me with questions. \n
-[GitHub](#https://github.com/${response.github}) \n
+[https://www.github.com/${response.github}](#https://www.github.com/${response.github}) \n
 Or you can email me at ${response.email}
 `, 
     (err) =>   

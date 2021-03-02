@@ -4,9 +4,9 @@
 
 ### Table of Contents:
 1. [Description](#description)
-2. [How to install](#How)
-3. [Contribution Guidelines](#Contribution)
-4. [Test instructions](#Test)
+2. [How to install](#How-to-install)
+3. [Contribution Guidelines](#Contribution-Guidelines)
+4. [Test instructions](#Test-instructions)
 5. [License](#License)
 8. [Contact info](#Questions?)
 
@@ -14,13 +14,13 @@
 b
 
 ### How to install
-c
+g
 
 ### Contribution Guidelines
-d
+f
 
 ### Test instructions
-e
+d
 
 ### License
 This repo is under the MIT license
@@ -28,6 +28,6 @@ This repo is under the MIT license
 ### Questions?
 Feel free to reach out to me with questions. 
 
-[GitHub](#https://github.com/f) 
+[https://www.github.com/e](#https://www.github.com/e) 
 
-Or you can email me at g
+Or you can email me at r
