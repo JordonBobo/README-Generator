@@ -11,7 +11,7 @@ inquirer.prompt([
   {
     type: 'input',
     name: 'description',
-    message: 'What does it do?',
+    message: 'Describe what it does?',
   },
   {
     type: 'input',
@@ -20,8 +20,13 @@ inquirer.prompt([
   },
   {
     type: 'input',
+    name: 'usage',
+    message: 'How do you use the app?',
+  },
+  {
+    type: 'input',
     name: 'contribute',
-    message: 'How does the user contribute to it?',
+    message: 'How does a user contribute to it?',
   },
   {
     type: 'input',
@@ -42,11 +47,18 @@ inquirer.prompt([
   {
     type: 'input',
     name: 'email',
-    message: 'And lastly, your email?',
+    message: 'Lastly, your email?',
   },
 ])
 .then((response) => {
-  fs.writeFile(`README.md`, 
+  fs.mkdir(response.title, function(err) {
+    if (err) {
+      console.log(err)
+    } else {
+      console.log("New directory successfully created.")
+    }
+  }),
+  fs.writeFile(`./${response.title}/README.md`, 
 `
 # ${response.title}
 ![GitHub License](https://img.shields.io/badge/license-${response.license}-blue.svg)
@@ -54,16 +66,20 @@ inquirer.prompt([
 ### Table of Contents:
 1. [Description](#description)
 2. [How to install](#How-to-install)
-3. [Contribution Guidelines](#Contribution-Guidelines)
-4. [Test instructions](#Test-instructions)
-5. [License](#License)
-8. [Contact info](#Questions?)
+3. [Usage](#Usage)
+4. [Contribution Guidelines](#Contribution-Guidelines)
+5. [Test instructions](#Test-instructions)
+6. [License](#License)
+7. [Contact info](#Questions?)
 
 ### description
 ${response.description}
 
 ### How to install
 ${response.install}
+
+### Usage
+${response.usage}
 
 ### Contribution Guidelines
 ${response.contribute}
@@ -83,14 +99,3 @@ Or you can email me at ${response.email}
     err ? console.error(err) : console.log("ReadMe created successfully")
   );
 })
-
-
-
-
-
-
-
-
-
-
-
